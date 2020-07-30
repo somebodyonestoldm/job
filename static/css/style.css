@@ -1,30 +1,58 @@
+
 img {
     width: 400px;
     height: auto;
     display: block;
 }
-
+/*
 body{
     background: #E5E5E5;
 }
 
-h1 {
-position: absolute;
-width: 672px;
-height: 112px;
-left: 120px;
-top: 221px;
+h1{
+    position: absolute;
+    width: 672px;
+    height: 112px;
+    left: 120px;
+    top: 221px;
 
-font-family: Museo Cyrl;
-font-style: normal;
-font-weight: bold;
-font-size: 44px;
-line-height: 128%;
-/* or 56px */
+    /*font-family: Museo Cyrl;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 128%;
 
-display: flex;
-align-items: center;
-letter-spacing: -0.416667px;
 
-color: #315AF2;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.416667px;
+
+    color: #315AF2;
 }
+
+Rectangle_1{
+    position: absolute;
+    width: 335px;
+    height: 300px;
+    left: 119px;
+    top: 721px;
+
+    background: #FFFFFF;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+Rectangle_2{
+    position: absolute;
+    width: 335px;
+    height: 300px;
+    left: 119px;
+    top: 1053px;
+
+    background: #FFFFFF;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+*/
