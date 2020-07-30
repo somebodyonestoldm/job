@@ -4,7 +4,7 @@ img {
     height: auto;
     display: block;
 }
-/*
+
 body{
     background: #E5E5E5;
 }
@@ -16,7 +16,7 @@ h1{
     left: 120px;
     top: 221px;
 
-    /*font-family: Museo Cyrl;
+    font-family: Museo Cyrl;
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
@@ -26,7 +26,6 @@ h1{
     display: flex;
     align-items: center;
     letter-spacing: -0.416667px;
-
     color: #315AF2;
 }
 
@@ -55,4 +54,3 @@ Rectangle_2{
     border-radius: 3px;
 }
 
-*/
