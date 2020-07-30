@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>Главная</title>
+<meta name="description" content="Главная страница блога"/>
+<meta name="keywords" content="блог"/>
+{% endblock %}
+
+{% block body %}
+  <h1>Главная</h1>
+  {% if not articles %}
+  <b>Статей больше нету</b>
+  {% else %}
+    {% for obj in articles %}
+    <a href="{{ obj.get_absolute_url }}"><b>{{ obj.name }}</b></a>
+    <img src="{{ obj.image.url }}" alt="">
+    <p>{{ obj.text|truncatechars:70 }}</p>
+    <span>{{ obj.timestamp }}</span>
+    <br><br><br>
+    {% endfor %}
+  {% endif %}
+
+  {% if articles.has_previous %}
+  <a href="?page={{ articles.previous_page_number }}">Назад</a>
+  {% endif %}
+  <span>{{ articles.number }} / {{ articles.num_pages }}</span>
+  {% if articles.has_next %}
+  <a href="?page={{ articles.next_page_number }}" >Вперед</a>
+  {% endif %}
+{% endblock %}

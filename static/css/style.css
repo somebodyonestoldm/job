@@ -1,0 +1,30 @@
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+h1 {
+position: absolute;
+width: 672px;
+height: 112px;
+left: 120px;
+top: 221px;
+
+font-family: Museo Cyrl;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 128%;
+/* or 56px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}
